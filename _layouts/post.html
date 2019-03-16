@@ -6,7 +6,7 @@ comments: true
 {% include minutes_to_read.html %}
 
 <h1 class="post-headline">{{page.title}}</h1>
-<p class="meta"><small>{{page.date | date: '%B %d, %Y'}} - {minutesText}</small></p>
+<p class="meta"><small>{{page.date | date: '%B %d, %Y'}} - {{minutesText}}</small></p>
 
 {{content}}
 
