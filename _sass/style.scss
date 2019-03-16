@@ -97,6 +97,13 @@ blockquote {
         }
     }
 
+/* Post date at home */ 
+
+.post-date{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
 
 /* Home Button */
 .home {
