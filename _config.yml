@@ -4,7 +4,7 @@ title: Danilo Gila - Blog
 baseurl: /blog # name of the repository
 email: danilosantana58@gmail.com
 
-
+permalink: /blog/:title.html
 
 highlighter: rouge
 markdown: kramdown
