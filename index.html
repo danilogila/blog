@@ -6,6 +6,6 @@ layout: default
 {% for post in site.posts %}
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{post.excerpt | strip_html}}</p>
-    <p class="post-date">{{ site.time | date: "%-d %B %Y"}}</p>
+    <time class="post-date">{{ site.time | date: "%-d %B %Y"}}</time>
 {% endfor %}
 </div>
